@@ -1,0 +1,73 @@
+Here are 20 of the most commonly used commands in Linux:
+
+1. ls: Lists directory contents.
+ls -l (detailed list)
+ls -a (shows hidden files)
+
+2. cd: Changes the current directory.
+cd /path/to/directory
+cd .. (goes up one directory)
+
+3. pwd: Prints the working directory.
+
+4. cp: Copies files or directories.
+cp source destination
+cp -r source_directory destination_directory (recursive copy)
+
+5. mv: Moves or renames files or directories.
+mv old_name new_name
+mv file /new/location/
+
+6. rm: Removes files or directories.
+rm file
+rm -r directory (recursive remove)
+
+7. mkdir: Creates a new directory.
+mkdir new_directory
+
+8. rmdir: Removes an empty directory.
+rmdir directory
+
+9. touch: Creates an empty file or updates the timestamp of an existing file.
+touch new_file
+
+10. cat: Concatenates and displays file content.
+cat file
+
+11. more / less: Views file content one screen at a time.
+more file
+less file
+
+12. head: Displays the first few lines of a file.
+head file
+head -n 10 file (first 10 lines)
+
+13. tail: Displays the last few lines of a file.
+tail file
+tail -n 10 file (last 10 lines)
+
+14. grep: Searches for a specific pattern in files.
+grep "pattern" file
+grep -r "pattern" directory (recursive search)
+
+15. find: Searches for files in a directory hierarchy. (detailed list of all processes)
+find /path -name "filename"
+
+16. chmod: Changes file permissions.
+chmod 755 file
+
+17. chown: Changes file owner and group.
+chown owner:group file
+
+18. df: Displays disk space usage.
+df -h (human-readable format)
+
+19. du: Estimates file space usage.
+du -h (human-readable format)
+
+20. ps: Displays information about active processes.
+ps aux (detailed list of all processes)
+
+These commands are fundamental for navigating and managing a Linux system. Each command has various options and flags 
+that provide additional functionality, so exploring the manual pages (man command_name) can be very helpful for understanding 
+their full capabilities.
