@@ -1,0 +1,74 @@
+Author:       Renato D. Mejilla
+Date:         May 23, 2024
+Description:  These are Enterprise Linux commands commonly used by Administrators.
+
+In enterprise environments, Linux administrators and users frequently rely on a variety of commands for system management, monitoring, and automation. Here are some commonly used Linux commands in enterprise settings:
+
+1. File and Directory Management:
+--> ls: Lists directory contents.
+--> cd: Changes the current directory.
+--> cp: Copies files and directories.
+--> mv: Moves or renames files and directories.
+--> rm: Removes files and directories.
+--> mkdir: Creates directories.
+--> touch: Creates empty files or updates the timestamp on existing files.
+
+2. File Permissions and Ownership:
+--> chmod: Changes file permissions.
+--> chown: Changes file ownership.
+--> chgrp: Changes group ownership of a file.
+
+3. File Viewing and Editing:
+--> cat: Concatenates and displays file content.
+--> more/less: Views file content one screen at a time.
+--> head: Displays the beginning of a file.
+--> tail: Displays the end of a file.
+--> nano/vim/vi: Text editors for editing files.
+
+4. System Information and Monitoring:
+--> top/htop: Displays real-time system processes.
+--> ps: Displays currently running processes.
+--> df: Reports file system disk space usage.
+--> du: Estimates file space usage.
+--> free: Displays memory usage.
+--> uname: Prints system information.
+--> uptime: Displays how long the system has been running.
+--> dmesg: Prints kernel and boot messages.
+--> iostat: Reports CPU and I/O statistics.
+
+5. Networking:
+--> ifconfig/ip: Configures network interfaces.
+--> ping: Tests network connectivity.
+--> netstat/ss: Displays network connections, routing tables, and interface statistics.
+--> traceroute: Traces the route packets take to a network host.
+--> nslookup/dig: Queries DNS servers.
+
+6. User and Group Management:
+--> useradd/adduser: Adds a new user.
+--> usermod: Modifies a user account.
+--> userdel: Deletes a user account.
+--> groupadd: Adds a new group.
+--> groupmod: Modifies a group.
+--> groupdel: Deletes a group.
+
+7. Package Management:
+--> apt-get/apt (Debian/Ubuntu): Manages packages.
+--> yum/dnf (RHEL/CentOS/Fedora): Manages packages.
+--> zypper (SUSE): Manages packages.
+--> rpm: Manages RPM packages.
+
+8. System Services:
+--> systemctl: Controls the systemd system and service manager.
+--> service: Manages system services.
+
+9. Shell Scripting and Automation:
+--> bash: The Bourne Again SHell, a common shell.
+--> cron: Schedules periodic tasks.
+--> at: Schedules one-time tasks.
+
+10. Security and Access Control:
+--> ssh: Connects to remote servers.
+--> scp/rsync: Copies files over SSH.
+--> sudo: Executes commands as another user, typically the superuser.
+
+These commands form the backbone of many administrative tasks in enterprise Linux environments. Familiarity with them is essential for efficient system management and troubleshooting.
